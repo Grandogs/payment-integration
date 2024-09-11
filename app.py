@@ -89,7 +89,7 @@ def payment_pix_page(payment_id):
                            payment_id=payment.id,
                            value=payment.value,
                            host="http://127.0.0.1:5000",
-                           qr_code=payment.qr_code,
+                           qr_code=payment.qr_code
                            )
 
 
